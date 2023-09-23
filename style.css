@@ -25,7 +25,7 @@ html
 #top h1
 {
     text-align: center;
-    font-size:60px;
+    font-size:40px;
     margin:auto;
     padding-top:.2%;
 }
@@ -41,14 +41,12 @@ html
 
 #creations
 {
-    display: inline;
-    margin-right: 10px;
     text-align: center;
     padding:0;
-    position:absolute;
-    justify-items: auto;
+    display: table;
+    width: 100%;
+    height: auto;
     padding-top: 1%;
-    padding-left: 3%;
 }
 #creations h2 
 {
@@ -59,4 +57,13 @@ html
     border:5px;
     border-color: rgb(255, 255, 255);
     border-style:outset;
+}
+ul 
+{
+    display: table-row;
+    margin:auto;
+}
+li 
+{
+    display: table-cell;
 }
